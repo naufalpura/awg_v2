@@ -23,6 +23,10 @@ class ActCategoryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationLabel = 'Kategori';
+    protected static ?string $modelLabel = 'Kategori';
+    // protected static ?string $navigationGroup = 'Content';
+    protected static ?string $slug = 'kategori';
+    protected static ?string $pluralLabel = 'Kategori';
 
     public static function form(Form $form): Form
     {

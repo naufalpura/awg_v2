@@ -25,6 +25,10 @@ class ActSubCategoryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationLabel = 'Sub Kategori';
+    protected static ?string $modelLabel = 'Sub Kategori';
+    // protected static ?string $navigationGroup = 'Content';
+    protected static ?string $slug = 'sub-kategori';
+    protected static ?string $pluralLabel = 'Sub Kategori';
 
     public static function form(Form $form): Form
     {
